@@ -1,0 +1,266 @@
+.rooms {
+  background-color: #fcf8f3;
+  justify-content: center;
+}
+.carousel-fade {
+  display: none;
+}
+.rooms {
+  &__btn {
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 12px;
+    padding: 0.7em 1.4em;
+    background-color: #b88e2f;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #dedede;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+  }
+
+  &__btn::before {
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: #2c3e50;
+    border-radius: 0 0 0.5em 0;
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+  }
+
+  &__btn:hover::before {
+    width: 1.6em;
+    height: 1.6em;
+  }
+
+  &__btn:active {
+    box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+  &__title {
+    text-align: center;
+    color: #3a3a3a;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Poppins;
+    padding-top: 50px;
+  }
+  &__neck {
+    text-align: center;
+    padding-top: 4px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: #616161;
+  }
+
+  &__btn {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    background-color: #b88e2f;
+  }
+
+  &__img {
+    display: block;
+    margin-top: 111px;
+    width: 300px;
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__img-info {
+    left: 100px;
+    top: 600px;
+    backdrop-filter: blur(11px);
+    position: absolute;
+  }
+
+  &__img-info__title {
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #616161;
+  }
+
+  &__img-info__neck {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3a3a3a;
+  }
+  &__imgs {
+    display: none;
+  }
+  &__icon {
+    display: none;
+  }
+}
+
+@include laptop() {
+  .rooms {
+    &__btn {
+      margin-bottom: 30px;
+      position: relative;
+      font-size: 18px;
+      padding: 0.7em 1.4em;
+      background-color: #b88e2f;
+      text-decoration: none;
+      border: none;
+      border-radius: 0.5em;
+      color: #dedede;
+      box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    }
+
+    &__btn::before {
+      position: absolute;
+      content: "";
+      height: 0;
+      width: 0;
+      top: 0;
+      left: 0;
+      background: #2c3e50;
+      border-radius: 0 0 0.5em 0;
+      box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+      transition: 0.3s;
+    }
+
+    &__btn:hover::before {
+      width: 1.6em;
+      height: 1.6em;
+    }
+
+    &__btn:active {
+      box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+      transform: translate(0.1em, 0.1em);
+    }
+    &__title {
+      font-size: 32px;
+    }
+
+    &__neck {
+      font-size: 22px;
+    }
+    &__btn {
+      padding: 15px 30px;
+      font-size: 20px;
+    }
+    &__img {
+      margin: 0 auto;
+      display: block;
+      width: 400px;
+    }
+    &__img-info {
+      top: 650px;
+      left: 350px;
+    }
+    &__img-info__title {
+      font-size: 26px;
+    }
+    &__img-info__neck {
+      font-size: 32px;
+    }
+    &__imgs {
+      display: none;
+    }
+    &__icon {
+      display: none;
+    }
+  }
+}
+
+@include mobile() {
+  .carousel-fade {
+    display: inline-block;
+  }
+  .rooms {
+    &__btn {
+      margin-bottom: 30px;
+      position: relative;
+      font-size: 16px;
+      padding: 0.7em 1.4em;
+      background-color: #b88e2f;
+      text-decoration: none;
+      border: none;
+      border-radius: 0.5em;
+      color: #dedede;
+      box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    }
+
+    &__btn::before {
+      position: absolute;
+      content: "";
+      height: 0;
+      width: 0;
+      top: 0;
+      left: 0;
+      background: #2c3e50;
+      border-radius: 0 0 0.5em 0;
+      box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+      transition: 0.3s;
+    }
+
+    &__btn:hover::before {
+      width: 1.6em;
+      height: 1.6em;
+    }
+
+    &__btn:active {
+      box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+      transform: translate(0.1em, 0.1em);
+    }
+    &__title {
+      padding-top: 200px;
+      font-size: 40px;
+    }
+    &__neck {
+      font-size: 26px;
+    }
+
+    &__img {
+      margin-left: 10px;
+      width: 404px;
+    }
+    &__wrapper {
+      gap: 50px;
+      position: relative;
+      display: flex;
+      overflow: hidden;
+      align-items: center;
+    }
+    &__img-info {
+      left: 700px;
+      top: 400px;
+    }
+    &__imgs {
+      display: block;
+      top: 50px;
+      left: 1000px;
+      position: absolute;
+    }
+    &__icon {
+      display: block;
+      top: 250px;
+      left: 1300px;
+      position: absolute;
+    }
+  }
+}
+.carousel {
+  max-width: 300px; /* или как в макете */
+  width: 100%;
+}
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+}

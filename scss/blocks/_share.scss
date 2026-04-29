@@ -1,0 +1,163 @@
+.share{
+    &__wrapper{
+        margin-bottom: 400px;
+        margin-top: 100px;
+        position: relative;
+    }
+    &__img-1{
+        left: -30px;
+        height: 250px;
+        position: absolute;
+    }
+    &__img-2{
+        top: 90px;
+        left: 40px;
+        width: 200px;
+        position: absolute;
+    }
+    &__img-3{
+        width: 100px;
+        left: 230px;
+        height: 270px;
+        position: absolute;
+    }
+    &__img-4{
+        left: 10px;
+        top: 210px;
+        width: 200px;
+        position: absolute;
+    }
+    &__img-5{
+        display: none;
+    }
+    &__img-6{
+        display: none;
+    }
+    &__img-7{
+            display: none;
+        }
+        &__img-8{
+            display: none;
+        }
+        &__img-9{
+            display: none;
+        }
+    &__info{
+        text-align: center;
+        justify-content: center;
+    }
+    &__title{
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 14px;
+        color: #616161;
+    }
+    &__neck{
+        font-family: Poppins;
+        font-weight: 700;
+        font-size: 22px;
+        color: #3A3A3A;
+    }
+    &__imgs{
+        margin-top: 30px;
+    }
+}
+@include laptop () {
+    .share{
+        &__wrapper{
+            margin-bottom: 900px;
+        }
+        &__title{
+            font-size: 20px;
+        }
+        &__neck{
+            font-size: 40px;
+        }
+        &__img-1{
+            height: 380px;
+        }
+        &__img-2{
+            left: 70px;
+            top: 170px;
+            width: 350px;
+        }
+        &__img-3{
+            left: 447px;
+            height:390px;
+            width: 290px;
+        }
+        &__img-4{
+            left: 70px;
+            top: 450px;
+            width: 340px;
+        }
+        &__img-5{
+            display: block;
+            left: 450px;
+            top: 550px;
+            position: absolute;
+        }
+        &__img-6{
+            top: 700px;
+            position: absolute;
+            display: block;
+        }
+        &__img-7{
+            display: none;
+        }
+        &__img-8{
+            display: none;
+        }
+        &__img-9{
+            display: none;
+        }
+    }
+}
+@include mobile{
+    .share{
+        &__img-1{
+            left: -90px;
+            position: absolute;
+            height: 382px;
+        }
+        &__img-2{
+            top: 220px;
+            left: 10px;
+            width: 451px;
+            position: absolute;
+        }
+        &__img-3{
+            top: 400px;
+            left: 500px;
+        }
+        &__img-4{
+            left: 130px;
+            top: 550px;
+        }
+        &__img-5{
+            top: 600px;
+            left: 1100px;
+        }
+        &__img-6{
+            top: 720px ;
+            left: 820px ;
+        }
+        &__img-7{
+            position: absolute;
+            display: block;
+            top: 550px;
+            left: -70px;
+        }
+        &__img-8{
+            top: 350px;
+            left: 800px;
+            display: block;
+            position: absolute;
+        }
+        &__img-9{
+            left: 1100px;
+            display: block;
+            position: absolute;
+        }
+    }
+}

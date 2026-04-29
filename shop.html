@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="container">
+          <div class="nav__wrapper">
+            <div class="nav__logo">
+              <a href="/">
+                <img
+                  class="nav__icons"
+                  src="./assets/icons/Frame 168.svg"
+                  alt="svg"
+                />
+              </a>
+              <button class="nav__menu" id="menuBtn">
+                <img
+                  class="nav__burger"
+                  src="./assets/icons/Burger.svg"
+                  alt="svg"
+                />
+              </button>
+              <button class="nav__menu" id="menuBtnClose">
+                <img src="./assets/icons/icons8-x-50.png" alt="svg" />
+              </button>
+            </div>
+            <ul class="nav__lists" id="menuli">
+              <li class="nav__list">
+                <a href="#"><span>Home</span></a>
+              </li>
+              <li class="nav__list">
+                <a href="#"><span>Shop</span></a>
+              </li>
+              <li class="nav__list">
+                <a href="#"><span>About</span></a>
+              </li>
+              <li class="nav__list">
+                <a href="#"><span>Contact</span></a>
+              </li>
+            </ul>
+            <div class="nav__imgs">
+              <img
+                src="./assets/icons/mdi_account-alert-outline.svg"
+                alt="svg"
+                class="nav__img"
+              />
+              <img src="./assets/icons/akar-icons_search.svg" alt="svg" />
+              <img src="./assets/icons/akar-icons_heart.svg" alt="svg" />
+              <img
+                src="./assets/icons/ant-design_shopping-cart-outlined.svg"
+                alt="svg"
+              />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="shop">
+        <div class="container">
+          <div class="shop__wrapper">
+            <p class="shop__title">Shop</p>
+            <p class="shop__neck">Home > Shop</p>
+          </div>
+        </div>
+      </section>
+      <section class="filter">
+        <div class="container">
+          <div class="filter__wrapper">
+            <div class="filter__title">
+              <img
+                width="25"
+                src="./assets/icons/system-uicons_filtering.svg"
+                alt="svg"
+              />
+              <p>Filter</p>
+            </div>
+            <p class="filter__neck">Showing 1–16 of 32 results</p>
+            <div class="filter__info">
+              <div class="filter__show">
+                <p>Show</p>
+                <img src="./assets/icons/Group 58.svg" alt="svg" />
+              </div>
+              <div class="filter__short">
+                <p>Short by</p>
+                <img src="./assets/icons/Group 59.svg" alt="svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container">
+          <div class="products__wrapper">
+            <div class="products__cards">
+              <div data-aos="flip-right">
+                <div class="products__card">
+                  <img src="./assets/imgs/image 1.png" alt="png" />
+                  <p class="card__title">Syltherine</p>
+                  <p class="card__neck">Stylish cafe chair</p>
+                  <div class="card__price">
+                    <p class="card__new-price">Rp 2.500.000</p>
+                    <del class="card__old-price">Rp 3.500.000</del>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="flip-right">
+                <div class="products__card">
+                  <img src="./assets/imgs/Images (1).png" alt="png" />
+                  <p class="card__title">Lolito</p>
+                  <p class="card__neck">Luxury big sofa</p>
+                  <div class="card__price">
+                    <p class="card__new-price">Rp 7.000.000</p>
+                    <del class="card__old-price">Rp 14.000.000</del>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="flip-right">
+                <div data-aos="flip-right">
+                  <div data-aos="flip-right">
+                    <div class="products__card-2">
+                      <img src="./assets/imgs/image 7.png" alt="png" />
+                      <p class="card__title">Pingky</p>
+                      <p class="card__neck">Cute bed set</p>
+                      <div class="card__price">
+                        <p class="card__new-price">Rp 7.000.000</p>
+                        <del class="card__old-price">Rp 14.000.000</del>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="flip-right">
+                <div class="products__card-2">
+                  <img src="./assets/imgs/image 4.png" alt="png" />
+                  <p class="card__title">Respira</p>
+                  <p class="card__neck">Outdoor bar table and stool</p>
+                  <div class="card__price">
+                    <p class="card__new-price">Rp 500.000</p>
+                    <del class="card__old-price">Rp 1.000.000</del>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="flip-right">
+                <div class="products__card-2">
+                  <img src="./assets/imgs/Images (2).png" alt="png" />
+                  <p class="card__title">Potty</p>
+                  <p class="card__neck">Minimalist flower pot</p>
+                  <div class="card__price">
+                    <p class="card__new-price">Rp 500.000</p>
+                    <del class="card__old-price">Rp 1.000.000</del>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="flip-right">
+                <div class="products__card-2">
+                  <img src="./assets/imgs/image 6.png" alt="png" />
+                  <p class="card__title">Muggo</p>
+                  <p class="card__neck">Small mug</p>
+                  <div class="card__price">
+                    <p class="card__new-price">Rp 150.000</p>
+                    <del class="card__old-price">Rp 300.000</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__cards">
+              <div data-aos="flip-right">
+                <div class="products__card">
+                  <img src="./assets/imgs/image 1.png" alt="png" />
+                  <p class="card__title">Syltherine</p>
+                  <p class="card__neck">Stylish cafe chair</p>
+                  <div class="card__price">
+                    <p class="card__new-price">Rp 2.500.000</p>
+                    <del class="card__old-price">Rp 3.500.000</del>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="flip-right">
+                <div class="products__card">
+                  <img src="./assets/imgs/Images (1).png" alt="png" />
+                  <p class="card__title">Lolito</p>
+                  <p class="card__neck">Luxury big sofa</p>
+                  <div class="card__price">
+                    <p class="card__new-price">Rp 7.000.000</p>
+                    <del class="card__old-price">Rp 14.000.000</del>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="flip-right">
+                <div data-aos="flip-right">
+                  <div data-aos="flip-right">
+                    <div class="products__card-2">
+                      <img src="./assets/imgs/image 7.png" alt="png" />
+                      <p class="card__title">Pingky</p>
+                      <p class="card__neck">Cute bed set</p>
+                      <div class="card__price">
+                        <p class="card__new-price">Rp 7.000.000</p>
+                        <del class="card__old-price">Rp 14.000.000</del>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="flip-right">
+                <div class="products__card-2">
+                  <img src="./assets/imgs/image 4.png" alt="png" />
+                  <p class="card__title">Respira</p>
+                  <p class="card__neck">Outdoor bar table and stool</p>
+                  <div class="card__price">
+                    <p class="card__new-price">Rp 500.000</p>
+                    <del class="card__old-price">Rp 1.000.000</del>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="flip-right">
+                <div class="products__card-2">
+                  <img src="./assets/imgs/Images (2).png" alt="png" />
+                  <p class="card__title">Potty</p>
+                  <p class="card__neck">Minimalist flower pot</p>
+                  <div class="card__price">
+                    <p class="card__new-price">Rp 500.000</p>
+                    <del class="card__old-price">Rp 1.000.000</del>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="flip-right">
+                <div class="products__card-2">
+                  <img src="./assets/imgs/image 6.png" alt="png" />
+                  <p class="card__title">Muggo</p>
+                  <p class="card__neck">Small mug</p>
+                  <div class="card__price">
+                    <p class="card__new-price">Rp 150.000</p>
+                    <del class="card__old-price">Rp 300.000</del>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__shop-pagination">
+              <div><button class="products__btn-active">1</button></div>
+              <div><button class="products__btn-2">2</button></div>
+              <div><button class="products__btn-2">3</button></div>
+              <div><button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Next</span>
+              </button></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="container">
+          <div class="benefits__wrapper">
+            <div class="benefits__cards">
+              <div class="benefits__card">
+                <img src="./assets/icons/trophy 1.svg" alt="svg" />
+                <div class="benefits__card-info">
+                  <p class="benefits__card-title">High Quality</p>
+                  <p class="benefits__card-neck">crafted from top materials</p>
+                </div>
+              </div>
+              <div class="benefits__card">
+                <img src="./assets/icons/guarantee.svg" alt="svg" />
+                <div class="benefits__card-info">
+                  <p class="benefits__card-title">Warranty Protection</p>
+                  <p class="benefits__card-neck">Over 2 years</p>
+                </div>
+              </div>
+              <div class="benefits__card-2">
+                <img src="./assets/icons/shipping.svg" alt="svg" />
+                <div class="benefits__card-info">
+                  <p class="benefits__card-title">Free Shipping</p>
+                  <p class="benefits__card-neck">Order over 150 $</p>
+                </div>
+              </div>
+              <div class="benefits__card-2">
+                <img src="./assets/icons/Vector.svg" alt="svg" />
+                <div class="benefits__card-info">
+                  <p class="benefits__card-title">24 / 7 Support</p>
+                  <p class="benefits__card-neck">Dedicated support</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper-2">
+          <div class="footer__logo">
+            <img src="./assets/icons/Frame 168.svg" alt="svg" />
+            <p>
+              400 University Drive Suite 200 Coral Gables, <br />
+              FL 33134 USA
+            </p>
+          </div>
+          <div class="footer__info">
+            <div class="footer__home">
+              <p class="footer__home-title">Links</p>
+              <p>Home</p>
+              <p>Shop</p>
+              <p>About</p>
+              <p>Contact</p>
+            </div>
+            <div class="footer__help">
+              <p class="footer__help-title">Help</p>
+              <p>Payment Options</p>
+              <p>Returns</p>
+              <p>Privacy Policies</p>
+            </div>
+            <div class="footer__news">
+              <p class="footer__news-title">Newsletter</p>
+              <div class="footer__inp">
+                <input
+                  class="footer__input"
+                  type="text"
+                  placeholder="Enter Your Email Address"
+                />
+                <button class="footer__btn">SUBSCRIBE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

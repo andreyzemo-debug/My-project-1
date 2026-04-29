@@ -1,0 +1,73 @@
+.details{
+    &__title{
+        align-items:  center;
+        margin-top: 50px;
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+    }
+
+    &__title span{
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    &__title p{
+        padding-top: 15px;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 12px;
+        color: #9F9F9F;
+    }
+    &__info{
+        text-align: center;
+        font-family: Poppins;
+        font-weight: 400;
+        color: #9F9F9F;
+        font-size: 8px;
+    }
+    &__imgs{
+        margin-bottom: 50px;
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    &__imgs img{
+        width: 170px;
+    }
+}
+
+@include laptop () {
+    .details{
+        &__title span{
+            font-size: 24px;
+        }
+        &__title p{
+            padding-top: 15px;
+            font-size: 24px;
+        }
+        &__title{
+            align-items: center;
+            gap: 30px;
+        }
+        &__info{
+            font-size: 14px;
+        }
+        &__imgs img{
+            width: 300px;
+        }
+    }
+}
+
+
+@include mobile () {
+    .details{
+        &__imgs img{
+            width: 100%;
+        }
+        &__info{
+            font-size: 16px;
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.footer{
+    &__logo p {
+        font-family: Poppins;
+        font-weight: 400;
+        color: #9F9F9F;
+        font-size: 14px;
+    }
+    &__logo{
+        text-align: center;
+        justify-content: center;
+    }
+    &__home-title{
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 18px;
+        color: #9F9F9F;
+    }
+    &__home{
+        font-family: Poppins;
+        font-weight: 500;
+    }
+    &__help-title{
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 18px;
+        color: #9F9F9F;
+    }
+    &__help{
+        font-family: Poppins;
+        font-weight: 500;
+    }
+    &__info{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+    &__news-title{
+        padding-left: 60px;
+        padding-top: 20px;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 18px;
+        color: #9F9F9F;
+    }
+    &__input{
+        margin-left: 20px ;
+        padding: 5px 10px;
+    }
+    &__btn{
+        border: gray;
+        background-color: white;
+        color: black;
+    }
+}
+
+@include laptop () {
+    .footer{
+        &__news-title{
+            padding-left: 150px;
+        }
+        &__input{
+            margin-left: 100px;
+        }
+
+        &__info{
+            display: flex;
+            gap: 60px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@include mobile () {
+    .footer{
+        &__inp{
+            display: flex;
+        }
+        &__wrapper{
+            gap: 100px;
+            align-items: center;
+            display: flex;
+        }
+        &__wrapper-2{
+            align-items: center;
+            gap: 100px;
+            display: flex;
+        }
+        &__info{
+            margin-left: 90px;
+            gap: 90px;
+        }
+    }
+}
