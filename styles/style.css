@@ -1742,6 +1742,16 @@
   align-items: center;
   display: flex;
 }
+.feedback__phone {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.feedback__time {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 .feedback__adress-info__title {
   padding-top: 30px;
   text-align: center;
@@ -1750,6 +1760,32 @@
   font-size: 12px;
 }
 .feedback__adress-info__neck {
+  font-weight: 400;
+  font-family: Poppins;
+  text-align: center;
+  font-size: 8px;
+}
+.feedback__phone-info__title {
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 500;
+  font-family: Poppins;
+  font-size: 12px;
+}
+.feedback__phone-info__neck {
+  font-weight: 400;
+  font-family: Poppins;
+  text-align: center;
+  font-size: 8px;
+}
+.feedback__time-info__title {
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 500;
+  font-family: Poppins;
+  font-size: 12px;
+}
+.feedback__time-info__neck {
   font-weight: 400;
   font-family: Poppins;
   text-align: center;
@@ -1845,13 +1881,28 @@
   .feedback__adress-info__neck {
     font-size: 16px;
   }
+  .feedback__phone-info__title {
+    font-size: 22px;
+  }
+  .feedback__phone-info__neck {
+    font-size: 16px;
+  }
+  .feedback__time-info__title {
+    font-size: 22px;
+  }
+  .feedback__time-info__neck {
+    font-size: 16px;
+  }
   .feedback__inps-1__title {
     font-size: 16px;
   }
 }
 @media (min-width: 1240px) {
+  .feedback__phone {
+    margin-left: -30px;
+  }
   .feedback__info {
-    gap: 100px;
+    gap: 200px;
   }
   .feedback__inps-btn {
     font-size: 18px;
@@ -1860,6 +1911,12 @@
     font-size: 36px;
   }
   .feedback__adress-info__title {
+    font-size: 24px;
+  }
+  .feedback__phone-info__title {
+    font-size: 24px;
+  }
+  .feedback__time-info__title {
     font-size: 24px;
   }
   .feedback__inps-1 input {

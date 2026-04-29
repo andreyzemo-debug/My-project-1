@@ -17,6 +17,16 @@
     align-items: center;
     display: flex;
   }
+  &__phone {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  &__time {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
   &__adress-info__title {
     padding-top: 30px;
     text-align: center;
@@ -25,6 +35,32 @@
     font-size: 12px;
   }
   &__adress-info__neck {
+    font-weight: 400;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 8px;
+  }
+  &__phone-info__title {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 12px;
+  }
+  &__phone-info__neck {
+    font-weight: 400;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 8px;
+  }
+  &__time-info__title {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Poppins;
+    font-size: 12px;
+  }
+  &__time-info__neck {
     font-weight: 400;
     font-family: Poppins;
     text-align: center;
@@ -126,6 +162,18 @@
     &__adress-info__neck{
         font-size: 16px;
     }
+    &__phone-info__title{
+        font-size: 22px;
+    }
+    &__phone-info__neck{
+        font-size: 16px;
+    }
+    &__time-info__title{
+        font-size: 22px;
+    }
+    &__time-info__neck{
+        font-size: 16px;
+    }
     &__inps-1__title{
         font-size: 16px;
     }
@@ -134,8 +182,11 @@
 
 @include mobile(){
     .feedback{
+      &__phone{
+        margin-left: -30px;
+      }
         &__info{
-            gap: 100px;
+            gap: 200px;
         }
         &__inps-btn{
             font-size: 18px;
@@ -144,6 +195,12 @@
             font-size: 36px;
         }
         &__adress-info__title{
+            font-size: 24px;
+        }
+        &__phone-info__title{
+            font-size: 24px;
+        }
+        &__time-info__title{
             font-size: 24px;
         }
         &__inps-1 input{
