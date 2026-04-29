@@ -860,6 +860,7 @@
   background-color: #b88e2f;
 }
 .rooms__img {
+  margin: 0 auto;
   display: block;
   margin-top: 111px;
   width: 300px;
