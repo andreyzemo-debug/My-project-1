@@ -194,14 +194,35 @@
         &__title{
             font-size: 36px;
         }
+        &__adress{
+          gap: 20px;
+        }
+        &__phone{
+          gap: 20px;
+        }
+        &__time{
+          gap: 20px;
+        }
         &__adress-info__title{
             font-size: 24px;
+            text-align: left;
+        }
+        &__adress-info__neck{
+          text-align: left;
         }
         &__phone-info__title{
             font-size: 24px;
+            text-align: left;
+        }
+        &__phone-info__neck{
+          text-align: left;
         }
         &__time-info__title{
             font-size: 24px;
+            text-align: left;
+        }
+        &__time-info__neck{
+          text-align: left;
         }
         &__inps-1 input{
             padding: 26px 385px 25px 29px;

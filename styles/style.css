@@ -1910,14 +1910,35 @@
   .feedback__title {
     font-size: 36px;
   }
+  .feedback__adress {
+    gap: 20px;
+  }
+  .feedback__phone {
+    gap: 20px;
+  }
+  .feedback__time {
+    gap: 20px;
+  }
   .feedback__adress-info__title {
     font-size: 24px;
+    text-align: left;
+  }
+  .feedback__adress-info__neck {
+    text-align: left;
   }
   .feedback__phone-info__title {
     font-size: 24px;
+    text-align: left;
+  }
+  .feedback__phone-info__neck {
+    text-align: left;
   }
   .feedback__time-info__title {
     font-size: 24px;
+    text-align: left;
+  }
+  .feedback__time-info__neck {
+    text-align: left;
   }
   .feedback__inps-1 input {
     padding: 26px 385px 25px 29px;
