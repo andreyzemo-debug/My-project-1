@@ -89,9 +89,8 @@
   &__inps-2 input {
     display: block;
     margin: 0 auto;
-    padding: 6px 100px 25px 7px; 
+    padding: 6px 100px 25px 7px;
     text-align: left;
-
   }
   &__inps-btn {
     margin-top: 20px !important;
@@ -140,96 +139,99 @@
 
 @include laptop() {
   .feedback {
-    &__info{
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-        display: flex;
+    &__info {
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      display: flex;
     }
-    &__inps-btn{
-        margin-bottom: 20px;
-        font-size: 15px;
+    &__inps-btn {
+      margin-bottom: 20px;
+      font-size: 15px;
     }
-    &__title{
-        font-size: 24px;
+    &__title {
+      font-size: 24px;
     }
-    &__neck{
-        font-size: 16px;
+    &__neck {
+      font-size: 16px;
     }
-    &__adress-info__title{
-        font-size: 22px;
+    &__adress-info__title {
+      font-size: 22px;
     }
-    &__adress-info__neck{
-        font-size: 16px;
+    &__adress-info__neck {
+      font-size: 16px;
     }
-    &__phone-info__title{
-        font-size: 22px;
+    &__phone-info__title {
+      font-size: 22px;
     }
-    &__phone-info__neck{
-        font-size: 16px;
+    &__phone-info__neck {
+      font-size: 16px;
     }
-    &__time-info__title{
-        font-size: 22px;
+    &__time-info__title {
+      font-size: 22px;
     }
-    &__time-info__neck{
-        font-size: 16px;
+    &__time-info__neck {
+      font-size: 16px;
     }
-    &__inps-1__title{
-        font-size: 16px;
+    &__inps-1__title {
+      font-size: 16px;
     }
   }
 }
 
-@include mobile(){
-    .feedback{
-      &__phone{
-        margin-left: -30px;
-      }
-        &__info{
-            gap: 200px;
-        }
-        &__inps-btn{
-            font-size: 18px;
-        }
-        &__title{
-            font-size: 36px;
-        }
-        &__adress{
-          gap: 20px;
-        }
-        &__phone{
-          gap: 20px;
-        }
-        &__time{
-          gap: 20px;
-        }
-        &__adress-info__title{
-            font-size: 24px;
-            text-align: left;
-        }
-        &__adress-info__neck{
-          text-align: left;
-        }
-        &__phone-info__title{
-            font-size: 24px;
-            text-align: left;
-        }
-        &__phone-info__neck{
-          text-align: left;
-        }
-        &__time-info__title{
-            font-size: 24px;
-            text-align: left;
-        }
-        &__time-info__neck{
-          text-align: left;
-        }
-        &__inps-1 input{
-            padding: 26px 385px 25px 29px;
-        }
-        &__inps-2 input{
-
-            padding: 26px 385px 70px 30px;
-        }
+@include mobile() {
+  .feedback {
+    &__phone {
+      margin-left: -30px;
     }
+    &__info {
+      gap: 200px;
+    }
+    &__inps-btn {
+      font-size: 18px;
+    }
+    &__title {
+      font-size: 36px;
+    }
+    &__adress {
+      gap: 20px;
+      padding-left: 30px;
+    }
+    &__phone {
+      gap: 20px;
+    }
+    &__time {
+      gap: 20px;
+    }
+    &__adress-info__title {
+      font-size: 24px;
+      text-align: left;
+    }
+    &__adress-info__neck {
+      text-align: left;
+    }
+    &__phone-info__title {
+      font-size: 24px;
+      text-align: left;
+    }
+    &__phone-info__neck {
+      text-align: left;
+    }
+    &__time-info__title {
+      font-size: 24px;
+      text-align: left;
+    }
+    &__time-info__neck {
+      text-align: left;
+    }
+    &__inps-1 input {
+      padding: 26px 385px 25px 29px;
+    }
+    &__inps-2 input {
+      padding: 26px 385px 70px 30px;
+    }
+    &__inps-1__title{
+      text-align: left;
+    }
+  }
 }

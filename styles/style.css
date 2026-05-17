@@ -1641,7 +1641,7 @@
     font-size: 24px;
   }
   .catalog__imgs {
-    gap: 400px;
+    gap: 100px;
     justify-content: center;
   }
   .catalog__big-imgs img {
@@ -1912,6 +1912,7 @@
   }
   .feedback__adress {
     gap: 20px;
+    padding-left: 30px;
   }
   .feedback__phone {
     gap: 20px;
@@ -1945,6 +1946,9 @@
   }
   .feedback__inps-2 input {
     padding: 26px 385px 70px 30px;
+  }
+  .feedback__inps-1__title {
+    text-align: left;
   }
 }
 * {
